@@ -1,0 +1,218 @@
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .nav{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--dark-700);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .nav ul li{
+        display: block;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .nav-toggler{
+        display: flex;
+        margin-right: 10px;
+    }
+    #nav-check:checked ~ .nav{
+        visibility: visible;
+        opacity: 1;
+    }
+    .footer-item,
+    .contact-img, .contact-form,
+    .reviews-item,
+    .achievement-item,
+    .achievement-img, .achievement-items,
+    .courses-item,
+    .why-us-item,
+    .home-text, .home-img {
+        width: 100%;
+    }
+    .home-text h1 {
+        font-size: 35px;
+    }
+    .home-text h2 {
+        font-size: 25px;
+    }
+    .btn{
+    padding: 8px 10px;
+    font-weight: 300;
+    }
+    .img-inner {
+        max-width: 400px;
+        margin-top: 40px;
+    } 
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+    .p-10 {
+        display: flex;
+        gap: 0;
+    }
+    .why-us-item {
+        margin-bottom: 10%;
+        padding: 50px 10px;
+    }
+    .courses-item {
+        margin-bottom: 5%;
+    }
+
+    .reviews-item{
+        text-align: center;
+    }
+
+    .contact-form form {
+        width: 80%;
+    }
+    .contact-img img {
+        max-width: 400px;
+    }
+
+    .footer-newsletter .btn {
+        width: 90%;
+        margin: 0 auto;
+    display: table;
+    }
+    .footer-item h2 {
+        margin-top: 5%;
+    }
+    .footer-newsletter .form-control{
+        width: 83%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .nav{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--dark-700);
+        visibility: hidden;
+        opacity: 0;
+    }
+    .nav ul li{
+        display: block;
+        margin: 0;
+        padding: 10px 0px;
+    }
+    .nav-toggler{
+        display: flex;
+        margin-right: 20px;
+    }
+    #nav-check:checked ~ .nav{
+        visibility: visible;
+        opacity: 1;
+    }
+    .contact-img, .contact-form,
+    .home-text, .home-img {
+        width: 100%;
+    }
+    .home-text h1 {
+        font-size: 45px;
+        width: 65%;
+    }
+    .home-text h2 {
+        font-size: 25px;
+        width: 65%;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+    .img-inner {
+        max-width: 500px;
+        margin-top: 10%;
+    }
+
+    .why-us-item {
+        margin-bottom: 5%;
+    }
+    .why-us-item {
+        padding: 40px 10px;
+    }
+    .courses-item {
+        margin-bottom: 5%;
+    }
+    .achievement-item {
+        grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    }
+    .footer-item {
+        width: 50%;
+    }
+    .footer-item h2{
+        margin-top: 25px;
+    }
+    .footer-newsletter .btn {
+        width: 96%;
+    }
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1024px){
+    .home-text h1 {
+        font-size: 50px;
+    }
+    .img-inner {
+        max-width: 400px;
+    }
+    .why-us-item {
+        padding: 20px 10px;
+    }
+    .p-10 {
+        grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    }
+    .courses-img img {
+        height: 200px;
+    }
+    .achievement-item {
+        grid-template-columns: repeat(auto-fit, minmax(210px, auto));
+    }
+    .footer-newsletter .form-control {
+        width: 80%;
+    }
+    .footer-newsletter .btn {
+        width: 92%;
+        margin: 0 auto;
+        display: table;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .home-text h1 {
+        font-size: 55px;
+    }
+    .home-text h2 {
+        font-size: 27px;
+    }
+    .img-inner {
+        max-width: 430px;
+    } 
+    .p-10 {
+        grid-template-columns: repeat(auto-fit, minmax(227px, auto));
+    }
+    .courses-img img {
+        height: 220px;
+    }
+    .achievement-item {
+        grid-template-columns: repeat(auto-fit, minmax(225px, auto));
+    }
+    .footer-newsletter .form-control {
+        width: 80%;
+    }
+    .footer-newsletter .btn {
+        width: 92%;
+        margin: 0 auto;
+        display: table;
+    }
+
+}
